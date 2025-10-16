@@ -1,0 +1,9 @@
+include README.md
+include LICENSE
+include requirements.txt
+include requirements-dev.txt
+include pytest.ini
+include .env.example
+recursive-include data *.csv
+recursive-exclude logs *
+recursive-exclude tests *
